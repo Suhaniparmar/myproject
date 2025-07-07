@@ -4,7 +4,7 @@ import toast from 'react-hot-toast';
 import { 
   Database, 
   Download, 
-  Refresh, 
+  RefreshCw, 
   Mail, 
   BarChart3, 
   TrendingUp, 
@@ -159,7 +159,7 @@ function Dashboard() {
                 className="p-2 text-gray-600 hover:text-gray-900 disabled:opacity-50"
                 title="Refresh Data"
               >
-                <Refresh className={`h-5 w-5 ${loading ? 'animate-spin' : ''}`} />
+                <RefreshCw className={`h-5 w-5 ${loading ? 'animate-spin' : ''}`} />
               </button>
               <button
                 onClick={logout}
